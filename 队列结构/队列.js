@@ -27,5 +27,6 @@ function Queue () {
 }
 var q = new Queue();
 q.enqueue(1);
+q.enqueue(2);
 var s = q.toString();
 console.log(typeof (s));
